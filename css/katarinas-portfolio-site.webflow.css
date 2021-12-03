@@ -918,11 +918,6 @@ a {
   opacity: 1;
 }
 
-/* .overlay.hero img {
-  height: 100%;
-  object-fit: cover;
-} */
-
 .image-project {
   position: absolute;
   width: 100%;
@@ -1567,6 +1562,15 @@ a {
 
 .hero-image video {
   border-radius: 20px;
+}
+
+#Education {
+  text-align: center !important;
+  min-width: 300px !important;
+}
+
+#Education h1 {
+  text-align: center !important;
 }
 
 @media screen and (max-width: 991px) {
@@ -2589,6 +2593,13 @@ a {
 
   .hero-image video {
     border-radius: 20px;
+  }
+}
+
+@media only screen and (max-device-width : 480px) {
+  .hero-image {
+    margin-left: 50vw;
+    transform: translate(-80%);
   }
 }
 
