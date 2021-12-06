@@ -1565,13 +1565,21 @@ a {
 }
 
 #Education {
-  text-align: center !important;
   min-width: 300px !important;
 }
 
-#Education h1 {
-  text-align: center !important;
+.education {
+  text-align: center;
 }
+
+@media screen and (min-width: 991px) {
+  #Education {
+    margin-left: auto;
+    margin-right: auto; 
+  }
+}
+
+
 
 @media screen and (max-width: 991px) {
   .middle-burger-line {
@@ -1784,6 +1792,10 @@ a {
   }
 }
 
+#Education {
+  max-width: 900px;
+}
+
 @media screen and (max-width: 767px) {
   .brand {
     padding-left: 0px;
@@ -1976,6 +1988,8 @@ a {
     padding-right: 10px;
   }
 }
+
+
 
 @media screen and (max-width: 479px) {
   .h4 {
