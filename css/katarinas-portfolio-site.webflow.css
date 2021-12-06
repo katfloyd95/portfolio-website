@@ -1560,7 +1560,7 @@ a {
   border-bottom: 1px none #000;
 }
 
-.hero-image video {
+.hero-image iframe {
   border-radius: 20px;
 }
 
