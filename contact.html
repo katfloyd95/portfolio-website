@@ -57,9 +57,15 @@
       <div class="contact-form w-form">
         <div class="small-container contact"><img src="images/bubble-v2.png" loading="lazy" sizes="(max-width: 479px) 70vw, 220px" srcset="images/bubble-v2-p-500.png 500w, images/bubble-v2-p-800.png 800w, images/bubble-v2.png 1038w" alt="bubble" class="large-bubble"><img src="images/bubble-v2.png" loading="lazy" sizes="86px" srcset="images/bubble-v2-p-500.png 500w, images/bubble-v2-p-800.png 800w, images/bubble-v2.png 1038w" alt="bubble" class="bubble"><img src="images/bubble-v2.png" loading="lazy" sizes="48px" srcset="images/bubble-v2-p-500.png 500w, images/bubble-v2-p-800.png 800w, images/bubble-v2.png 1038w" alt="bubble" class="small-bubble"></div>
         <form action=”https://formspree.io/f/xyyoyzaj” id="email-form" name="email-form" data-name="Email Form" class="form" method="post">
-          <input type="text" class="text-field w-input" maxlength="256" name="input-your-name" data-name="Name" placeholder="What&#x27;s your name?" id="name" required="">
-          <input type="email" class="text-field w-input" maxlength="256" name="email-contact" data-name="Name 2" placeholder="Your email address" id="name-2" required="">
-          <textarea placeholder="What did you want to tell me?" maxlength="5000" id="field" name="textfield-contact" data-name="Field" required="" class="textarea w-input"></textarea>
+          <label>
+            <input type="text" class="text-field w-input" maxlength="256" name="your-name" data-name="Name" placeholder="What&#x27;s your name?" id="name" required="">
+          </label>
+          <label>
+            <input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Name 2" placeholder="Your email address" id="name-2" required="">
+          </label>
+          <label>
+            <textarea placeholder="What did you want to tell me?" maxlength="5000" id="field" name="message" data-name="Field" required="" class="textarea w-input"></textarea>
+          </label>
           <!-- <input type="submit" value="Submit" data-wait="Please wait..." class="primary-button w-button"> -->
           <button type="submit" value="Submit" data-wait="Please wait..." class="primary-button w-button">Submit</button>
         </form>
