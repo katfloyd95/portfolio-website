@@ -819,9 +819,15 @@ a {
   grid-column-gap: 30px;
   grid-row-gap: 50px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  margin: auto;
+}
+@media screen and (min-width:576px) {
+  .main-grid {
+    max-width: 700px;
+  }
 }
 
 .main-grid.project {
@@ -2146,6 +2152,7 @@ a {
   grid-row-end: 2;
   -ms-grid-row: 1;
   grid-row-start: 1;
+  width: 100%;
 }
 
 #w-node-_4ad598ae-44e8-6337-2525-0fca7d64589e-7a232e86 {
