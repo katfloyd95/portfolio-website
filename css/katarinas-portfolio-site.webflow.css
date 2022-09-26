@@ -68,6 +68,10 @@ a {
   align-items: center;
 }
 
+.center-hero {
+  justify-content: center !important;
+}
+
 .logo-text {
   font-family: Montserrat, sans-serif;
   color: #252b3a;
@@ -394,7 +398,7 @@ a {
 
 .section.hero {
   overflow: visible;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 .section.hero-project {
